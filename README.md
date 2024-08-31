@@ -1,9 +1,28 @@
-# Document-Processing-Tool-Search_engine
-In this project I am used the concepts of data structures course to build a real world system to solve a real world problem. In particular, in this project I build a natural
-language-based question answering system that will process given corpus of documents (say complete works
-of Mahatama Gandhi) and answer any question posed by the user in natural language. My system is
-expected to answer the questions using the corpus of documents provided by you.
-In this project I am created a search engine that will return all matching answers to an input query in
-the corpus provided, similar to they way search engines return the results. The input query may start from middle of a word and end at the
-middle of a word, yet this search engine is expected to return all the sentences in the given corpus that match your input
-query. There will be marks for correctness as well as efficiency if your implementation. In addition, I am created a dictionary that counts the number of occurrences of each word in the given corpus.
+# Document Processing Tool - Search Engine
+
+## Project Overview
+
+This project is a real-world application of data structures concepts, designed to build a natural language-based question-answering system. The system processes a given corpus of documents, such as the complete works of Mahatma Gandhi, and answers questions posed by the user in natural language. It operates similarly to a search engine, returning all matching sentences from the provided corpus based on the user's query. The system is capable of handling queries that may start or end in the middle of words, ensuring that all relevant results are retrieved.
+
+### Key Features
+
+- **Natural Language Processing (NLP):** Processes user queries and matches them against the corpus.
+- **Custom Dictionary Implementation:** Keeps track of word occurrences across the corpus.
+- **Efficient Search:** Returns sentences matching the user's input query, regardless of word boundaries.
+- **Data Structures:** Uses custom data structures for efficient storage and retrieval of information.
+
+## Tech Stack
+
+- **Programming Language:** C++
+  - C++ was chosen for its efficiency and control over system resources, which are critical for handling large datasets in real-time.
+  
+- **Core Libraries:**
+  - `dict.h`: Custom header file that defines and manages the dictionary structure used for counting word occurrences and storing sentences.
+
+- **Data Structures:**
+  - **Symbol Table:** A custom data structure used for storing and retrieving words and their occurrences efficiently.
+  - **SymNode:** A node structure used in the Symbol Table to represent each word and its frequency.
+
+- **File Handling:**
+  - The system can dump the contents of the dictionary to a file for further analysis or persistence, using the `dump_dictionary` method.
+
