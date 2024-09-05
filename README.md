@@ -2,11 +2,10 @@
 
 ## Project Overview
 
-This project is a real-world application of data structures concepts, designed to build a natural language-based question-answering system. The system processes a given corpus of documents, such as the complete works of Mahatma Gandhi, and answers questions posed by the user in natural language. It operates similarly to a search engine, returning all matching sentences from the provided corpus based on the user's query. The system is capable of handling queries that may start or end in the middle of words, ensuring that all relevant results are retrieved.
+This project is a real-world application of data structures concepts. It operates similarly to a search engine, returning all matching sentences from the provided corpus based on the user's query. The system is capable of handling queries that may start or end in the middle of words, ensuring that all relevant results are retrieved.
 
 ### Key Features
 
-- **Natural Language Processing (NLP):** Processes user queries and matches them against the corpus.
 - **Custom Dictionary Implementation:** Keeps track of word occurrences across the corpus.
 - **Efficient Search:** Returns sentences matching the user's input query, regardless of word boundaries.
 - **Data Structures:** Uses custom data structures for efficient storage and retrieval of information.
